@@ -1,2 +1,2 @@
-# ParkMates
-Web application that matches people leaving a parking spot with people looking for a parking spot
+# Techsun
+Web application that provides outfit suggestions for Techbros (gender-inclusive)
