@@ -4,29 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Techsun</title>
+    <link href = "./styles/index.css" rel = "stylesheet">
+    <link rel="icon" href= "/images/logo.png">
 </head>
 <body>
-    <div class = "headerContainer">
-        <div class = "leftSideContainer">
-            <div class = "logoImageContainer">
-                <img class = "logo" src = "images/logo.png">
-            </div>
 
-            <div class = "logoTextContainer">
-                <h1>Homepage</h1>
+    <section class = "header">
+        <nav>
+            <a href = "index.html"><img src="./images/logo.png" alt="Techsun Logo"></a>
+            <div class="navLinks">
+                <i class="fa-solid fa-circle-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
             </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Techsun</h1>
+            <p>
+                Techbro's fashion dream
+            </p>
+            <a href="" class="hero-btn">Visit Us To Know More</a>
         </div>
+    </section>
 
-        <div class = "rightSideContainer">
-            <div class = "hamburgerMenu">
-                <a href="./pages/professional.html">Business Professional</a>
-                <a href="./pages/casual.html">Business Casual</a>
-                <a href="./pages/about.html">About Us</a>
+
+
+
+
+    <header class = "headerContainer">
+        <!-- Top header menu containing
+         logo and Navigation bar -->
+        <div class ="header">
+                
+            <!-- Logo -->
+            <div class = "logo">
+                <img class = "logo" src = "images/logo.png" alt= "Techsun Logo">
+            </div>  
+                    
+            <!-- Navigation Menu -->
+            <nav>
+            <div class = "menu">
+                <ul>
+                    <li class = "active"><a href="/index.html">Home</a></li>
+                    <li><a href = "./pages/professional.html">Business Professional</a>
+                    <li><a href = "./pages/casual.html">Business Casual</a>
+                    <li><a href = "./pages/about.html">About Us</a>
+                </ul>
             </div>
+            </nav>
         </div>
-    </div>
-
+    </header>
 
 
 </body>
