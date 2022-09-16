@@ -6,63 +6,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Techsun</title>
     <link href = "./styles/index.css" rel = "stylesheet">
-    <link rel="icon" href= "/images/logo.png">
+    <link rel="icon" href= "./images/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7c6c9300a7.js" crossorigin="anonymous"></script>
 </head>
 <body>
-
+    <!-----Header---->
     <section class = "header">
         <nav>
-            <a href = "index.html"><img src="./images/logo.png" alt="Techsun Logo"></a>
-            <div class="navLinks">
-                <i class="fa-solid fa-circle-xmark" onclick="hideMenu()"></i>
+            <a href = "./index.html"><img src = "./images/logo.png" alt = "Techsun Logo"></a>
+            <div class = "navLinks" id = "navLinks">
+                <i class = "fa-solid fa-circle-xmark" onclick = "hideMenu()"></i>
                 <ul>
-                    <li><a href="">HOME</a></li>
-                    <li><a href="">ABOUT</a></li>
-                    <li><a href="">COURSE</a></li>
-                    <li><a href="">BLOG</a></li>
-                    <li><a href="">CONTACT</a></li>
-                </ul>
-            </div>
-            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
-        </nav>
-
-        <div class="text-box">
-            <h1>Techsun</h1>
-            <p>
-                Techbro's fashion dream
-            </p>
-            <a href="" class="hero-btn">Visit Us To Know More</a>
-        </div>
-    </section>
-
-
-
-
-
-    <header class = "headerContainer">
-        <!-- Top header menu containing
-         logo and Navigation bar -->
-        <div class ="header">
-                
-            <!-- Logo -->
-            <div class = "logo">
-                <img class = "logo" src = "images/logo.png" alt= "Techsun Logo">
-            </div>  
-                    
-            <!-- Navigation Menu -->
-            <nav>
-            <div class = "menu">
-                <ul>
-                    <li class = "active"><a href="/index.html">Home</a></li>
+                    <li><a href = "./index.html">Home</a></li>
                     <li><a href = "./pages/professional.html">Business Professional</a>
                     <li><a href = "./pages/casual.html">Business Casual</a>
                     <li><a href = "./pages/about.html">About Us</a>
                 </ul>
             </div>
-            </nav>
+            <i class = "fa-solid fa-bars" onclick = "showMenu()"></i>
+        </nav>
+
+        <div class = "textBox">
+            <h1>Techsun</h1>
+            <p>
+                Techbro's fashion dream
+            </p>
         </div>
-    </header>
+    </section>
+
+    <!---------Dress Types [CONTINUE HERE]-------->
+
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>These are the campuses. These are the campuses. These are the campuses. These are the campuses. </p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="./images/london.png">
+                <div class="layer">
+                    <h3>LONDON</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="./images/newyork.png">
+                <div class="layer">
+                    <h3>NEW YORK</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="./images/washington.png">
+                <div class="layer">
+                    <h3>WASHINGTON</h3>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 </body>
+
+<script src = "./scripts/index.js"></script>
+
 </html>
